@@ -51,4 +51,4 @@ spring:
 ##      enabled: false
 #  jwt:
 #    issuer: dangtong@gmail.com
-#    secret_key: study-springboot
+#    secret_key: study-springboot aaa
