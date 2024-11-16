@@ -2,7 +2,7 @@ spring:
   datasource:
     url: ${DATABASE_URL:jdbc:mysql://192.168.200.17:3306/istory}
     username: ${MYSQL_USERNAME:root}
-    password: ${MYSQL_PASSWORD:admin123}
+    password: ${MYSQL_PASSWORD:admin12345}
     driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     database-platform: org.hibernate.dialect.MySQLDialect
@@ -27,7 +27,7 @@ spring:
 #  datasource:
 #    url: jdbc:postgresql://192.168.0.2:5433/postgres
 #    username: postgres
-#    password: admin123
+#    password: admin12345
 #jwt:
 #  issuer: dangtong@gmail.com
 #  secret_key: study-springboot
